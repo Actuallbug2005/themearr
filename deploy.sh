@@ -19,7 +19,7 @@ fi
 # 3. Clone the repository directly from your GitHub
 echo ">>> Cloning repository..."
 # REPLACE THE URL BELOW WITH YOUR ACTUAL GITHUB REPO URL
-git clone https://github.com/YOUR_GITHUB_USERNAME/themearr.git "$INSTALL_DIR"
+git clone https://github.com/Actualbug2005/themearr.git "$INSTALL_DIR"
 
 # 4. Execute the native installation script
 echo ">>> Executing native installer..."
