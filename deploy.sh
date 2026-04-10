@@ -17,7 +17,7 @@ fi
 
 # 3. Clone the repository to the temporary zone
 echo ">>> Cloning repository..."
-git clone https://github.com/Actuallbug2005/themearr.git "$SRC_DIR"
+git clone https://github.com/Actualbug2005/themearr.git "$SRC_DIR"
 git -C "$SRC_DIR" rev-parse --short=12 HEAD > "$SRC_DIR/VERSION"
 
 # 4. Safely wipe old application code (preserves database and .env)
